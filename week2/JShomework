@@ -1,0 +1,13 @@
+const pizzaPlace = "PepperandRoni";
+
+let numberOfToppings = 6;
+
+console.log(typeof pizzaPlace);
+console.log(typeof numberOfToppings);
+let  pizzaInfo = `delicious pizza` ${pizzaPlace};
+
+let toppings = 10;
+if (toppings <= 6) {
+  console.log("Quality, not quantity")
+} else (toppings < 10);
+  console.log("A whole lot of pizza.");
