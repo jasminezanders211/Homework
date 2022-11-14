@@ -1,0 +1,23 @@
+const pizzaToppings = ["pepperoni", "sausage", "bacon", "onion"]
+
+let greetCustomer = ("Welcome to Pepper and Roni");
+for (let pizza of pizzaToppings)
+  console.log(`${greetCustomer}, our toppings are: ${pizzaToppings}`);
+
+function getPizzaOrder(medium, thin, bacon) {
+  console.log(`One medium thin crust pizza with ${pizzaToppings[2]} comng up`);
+return [medium, thin, bacon];
+};
+
+function preparePizza([medium, thin, bacon]) {
+  size: medium
+  crust: thin
+  toppings: bacon
+  console.log("cooking pizza");
+  return preparePizza;
+};
+
+function servePizza(pizza){
+console.log("order up! Here's your medium thick crust pizza with")
+};
+
