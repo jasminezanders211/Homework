@@ -1,18 +1,18 @@
 const pizzaToppings = ["pepperoni", "sausage", "bacon", "onion"]
 
-let greetCustomer = ("Welcome to Pepper and Roni");
-for (let pizza of pizzaToppings)
+function greetCustomer = ('Welcome to Pepper and Roni');
+for (let greetCustomer of pizzaToppings)
   console.log(`${greetCustomer}, our toppings are: ${pizzaToppings}`);
 
-function getPizzaOrder(medium, thin, bacon) {
+function getPizzaOrder(size, crust, toppings) {
   console.log(`One medium thin crust pizza with ${pizzaToppings[2]} comng up`);
 return [medium, thin, bacon];
 };
 
-function preparePizza([medium, thin, bacon]) {
-  size: medium
-  crust: thin
-  toppings: bacon
+function preparePizza([size, crust, toppings]) {
+  size: size,
+  crust: crust,
+  toppings: toppings,
   console.log("cooking pizza");
   return preparePizza;
 };
