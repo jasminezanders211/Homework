@@ -1,0 +1,15 @@
+body {
+
+  background-color: rgb(241, 208, 213);
+  border: 5px solid rgb(240, 161, 215);
+}
+div {
+  padding: 10px;
+}
+div {
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+}
