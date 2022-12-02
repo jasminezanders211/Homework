@@ -51,7 +51,15 @@ div {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 764px) {
-  id = proCareer {
-flex-direction: column;
-  }
+
+  #proCareer>img {
+    width: 100%;
+}
+
+#acting>img {
+  width: 70%;
+}
+
+#earlyCareer>img {
+  width: 70%;
+}
