@@ -63,3 +63,9 @@ div {
 #earlyCareer>img {
   width: 70%;
 }
+
+@media only screen and (max-width: 375px) {
+  h1 {
+    color: red;
+  }
+}
